@@ -70,7 +70,6 @@ export const google = async (req, res, next) => {
                 .json(rest);
         }
     } catch (error) {
-        console.log(error);
         next(error);
     }
 };
